@@ -1,0 +1,222 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: #232330;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+
+}
+
+#main__header {
+  position:relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(135deg, #0864d6 0%, #08AAD6 100%);
+}
+#main__header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+#main__header ul {
+  display: flex;
+}
+
+#main__header ul a {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 15px;
+  color: #000;
+}
+
+#main__header ul a.active{
+
+}
+#main__header ul a.disabled{
+opacity: 0.3;
+}
+
+
+/* INTRO LANDING */
+
+.intro{
+  color: #000;
+  text-align: center;
+  background-image: url('../img/LandingBG.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 297px 0;
+}
+
+.intro h1{
+  font-weight: normal;
+  font-size: 60px;
+  max-width: 615px;
+  margin: 0 auto 70px;
+}
+
+.intro h1 .top {
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: block;
+}
+.intro h1 .bottom {
+  font-weight: normal;
+  font-size: 32px;
+  margin-top: 15px;
+  text-align: center;
+  display: block;
+}
+
+.intro p a{
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.intro p .cta{
+  background: linear-gradient(135deg, #0864d6 0%, #08AAD6 100%);
+  color: #fff;
+  padding: 25px 60px;
+  border-radius: 15px;
+}
+
+/* ABOUT */
+.about{
+  color: #000;
+  text-align: center;
+  background-image: url('../img/AboutBG.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 66px 0;
+}
+
+.about h1{
+  font-weight: normal;
+  font-size: 60px;
+  max-width: 615px;
+  margin: 0 auto 70px;
+}
+
+.about h1 .top {
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: block;
+}
+.about h1 .bottom {
+  font-weight: normal;
+  font-size: 32px;
+  margin-top: 100px;
+  text-align: center;
+  display: block;
+  opacity: 0.5;
+}
+
+/* CONTACT */
+.contact{
+  color: #000;
+  text-align: center;
+  background-image: url('../img/ContactBG.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 162px 0;
+}
+
+.contact h1{
+  font-weight: normal;
+  font-size: 60px;
+  max-width: 615px;
+  margin: 0 auto 70px;
+}
+
+.contact h1 .top {
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: block;
+}
+.contact h1 .bottom {
+  font-weight: normal;
+  font-size: 32px;
+  margin-top: 300px;
+  text-align: center;
+  display: block;
+}
+.contact .bottom a{
+  font-weight: bold;
+  font-size: 24px;
+  color: #000;
+  display: inline-block;
+  margin: 0 15px;
+  opacity: 0.5;
+}
+
+/* PROJECTS */
+.projects{
+  color: #fff;
+  text-align: center;
+  background-image: url('../img/ProjectsBG.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 297px 0;
+}
+
+.projects h1{
+  font-weight: normal;
+  font-size: 60px;
+  max-width: 615px;
+  margin: 0 auto 70px;
+}
+
+.projects h1 .top {
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: block;
+}
+.projects h1 .bottom {
+  font-weight: normal;
+  font-size: 32px;
+  margin-top: 15px;
+  text-align: center;
+  display: block;
+}
+
+.projects p a{
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.projects p .cta{
+  background: linear-gradient(135deg, #0864d6 0%, #08AAD6 100%);
+  color: #fff;
+  padding: 25px 60px;
+  border-radius: 15px;
+  margin-top: 179px;
+}
